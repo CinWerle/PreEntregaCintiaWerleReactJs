@@ -1,18 +1,19 @@
-
-import './App.css';
+import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Components/NavBar';
-import ItemListContainer from './Components/ItemListContainer';
+
+import MainRouter from "./routes/MainRouter";
 
 const App = () => {
-  
+
   return (
     <div className="App">
-      <NavBar />
-      <ItemListContainer greeting="Bienvenidos 🍔"/>
+      <MainRouter />
       
     </div>
   );
-}
+};
+
+
+
 
 export default App;
