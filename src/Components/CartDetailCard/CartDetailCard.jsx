@@ -11,12 +11,16 @@ const CartDetailCard = ({ product, qty }) => {
           <div className={styles.productInfo}>
             <h2>{product.title}</h2>
             <p>{product.description}</p>
-            {/* <p>Precio: ${product.precio}</p> */}
+            { <p>Precio: ${product.precio}</p> }
             <p>Cantidad: {qty.qty}</p>
+            <p>Total: ${}</p>
           </div>
         </div>
     </div>
   );
 };
 
+
+
+    
 export default CartDetailCard;
